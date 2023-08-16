@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #fc7373;
+}
+.hi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+.button {
+  width: 120px;
+  height: 40px;
+}
+.shadow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal {
+  position: fixed;
+  z-index: 500;
+  background: #fff;
+  width: 50%;
+  border: 1px solid #ccc;
+  box-shadow: -2px -1px 28px -5px rgba(106, 106, 106, 0.75);
+  padding: 16px;
+  left: 25%;
+  top: 30%;
+  transition: all 0.3s ease-out;
+}
+.close {
+  position: absolute;
+  right: 20px;
+}
